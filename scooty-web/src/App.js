@@ -9,6 +9,7 @@ import BikeScooterIcon from '@mui/icons-material/BikeScooter';
 import FindReplaceIcon from '@mui/icons-material/FindReplace';
 import ShareLocationIcon from '@mui/icons-material/ShareLocation';
 import ListAltIcon from '@mui/icons-material/ListAlt';
+import ApiCall from './ApiCall';
 
 function App() {
   return (
@@ -87,6 +88,8 @@ function App() {
       </div>
 
       <button class="button">Hemen Kirala</button>
+
+      <ApiCall></ApiCall>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
